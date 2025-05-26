@@ -1,0 +1,237 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+    }
+    body {
+      background-color: #111;
+      
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode:screen;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .section1{
+      background-image: url(banner3.JPG);
+      width: 100%;
+      height: 600px;
+      
+    }
+    .navbar {
+      display: flex;
+      width: 800;
+      justify-content: space-between;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .logo {
+      font-family: "Roboto", sans-serif;
+      margin-left: 50px;
+      font-size: 40px;
+      font-weight: bold;
+        color: rgb(229,9,20);
+         fill: currentColor;
+         display: block;
+    }
+    .nav-links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .banner {
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      width: 1000;
+      flex-direction:column;
+      justify-content: center;
+
+    }
+    .banner input{
+      margin-top: 20px;
+      padding-left: 10px;
+      margin: 10;
+    font-size: 1rem;
+    border: 1px inherit;
+     font-weight: 500;
+     line-height: 3;
+     width: 400px;
+      background-color: transparent;
+       color: white;
+       left: 3rem;
+       right: 3rem;
+        border-radius: 10px;
+       top: 3rem;
+    }
+    .banner section{
+      display: inline-flex;
+    }
+    #submit{
+      line-height: 2.3;
+    }
+#submit:hover {
+  display: inline-flex;
+  background-color: #f40612;
+  transform: scale(1.05);
+}
+    .banner button{
+      margin-top: 20px;
+      text-align: center center;
+      padding-left: 10px;
+      margin-left: 10px;
+      display: inline-flex;
+      font-size: 1.5rem;
+   background: rgb(229, 9, 20);
+    border:rgb(229, 9, 20) ;
+    border-radius: 10px;
+     line-height: 3;
+     color: white;
+     width: 200px;
+    }
+    .banner h1 {
+      font-size: 3.5rem;
+      margin-bottom: 8px;
+      
+    }
+    .banner p {
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      
+    }
+    .row {
+     
+      margin-right:6rem;
+      margin-left: 4rem;
+      padding: 20px;
+      margin-top: 100px;
+      display: block;
+    }
+    .row h2 {
+      margin-top: 10px;
+    }
+    .row-posters {
+      display: flex;
+      overflow-x: auto;
+    }
+    .row-posters img {
+      height: 250px;
+      margin: 20px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 4px;
+      transition: transform 0.2s;
+    }
+    .row-posters img:hover {
+      transform: scale(1.08);
+    }
+    .block {
+      margin-left: 4rem;
+      padding: 20px;
+      margin-top: 30px;
+      display: inline-flex;
+    }
+    .blocks{
+      margin: 10px;
+      width: 21%;
+      padding: 20px;
+      border-radius: 20px;
+      background: linear-gradient( 149deg, #192247 0%, #210e17 96.86% );
+      height: 350px;
+      margin-bottom: 50px;
+    }
+    .blocks h1{
+      margin-bottom: 15px;
+    }
+    .blocks p{
+      color: rgba(255,255,255,0.7);
+    }
+    
+.faq-wrapper {
+  margin: 0 auto;
+}
+
+.faq-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background-color: #333;
+  margin-bottom: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #444;
+}
+
+.faq-question {
+  font-size: 18px;
+}
+
+.faq-icon {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+.margin{
+  padding: 40px;
+}
+.footer {
+  margin-top: 50px;
+      max-width: 1000px;
+      height: 400px;
+      margin: auto;
+    }
+    .footer-top {
+      margin-bottom: 20px;
+    }
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .footer-column {
+      flex: 1;
+      min-width: 180px;
+    }
+    .footer-column a {
+      display: block;
+      color: #999;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    .footer-column a:hover {
+      text-decoration: underline;
+    }
+    .language-select {
+      margin-top: 20px;
+    }
+    .language-select select {
+      background-color: #000;
+      color: #fff;
+      border: 1px solid #333;
+      padding: 5px 10px;
+    }
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #666;
+    }
+    .footer-bottom a {
+      color: #999;
+      text-decoration: none;
+    }
